@@ -16,3 +16,7 @@ export default defineConfig({
     }
   }
 })
+
+// rm -rf /var/www/worker_web
+// mv /root/project/worker_web/dist/ /var/www/worker_web
+// chown -R www-data:www-data /var/www/worker_web
